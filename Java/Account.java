@@ -1,9 +1,15 @@
 class Account {
-
+    
+    public Account(String name,String document){
+        this.name=name;
+        this.document=document;
+        }
     Integer id;
-    String nombre;
-    String Document;
-    String Email;
-    String Password;
+    String name;
+    String document;
+    String email;
+    String password;
+    
+
     
 }
