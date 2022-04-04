@@ -1,4 +1,9 @@
-function Payment(){
+class payment{
+    
+constructor(){
 this.id;
 
 }
+
+}
+
