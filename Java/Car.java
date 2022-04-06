@@ -2,7 +2,7 @@ class Car {
     Integer id;
     String licence;
     Account driver;
-    Integer passegenger;
+    private Integer passegenger;
     
     public Car(String license,Account driver ){
          this.licence=license;
@@ -10,7 +10,16 @@ class Car {
     }
 
     void printDataCar(){
-System.out.println("License: " + licence + " Driver: " + driver.name);
+System.out.println("License: " + licence + " Driver: " + driver.name+ " Pasajero: "+ passegenger);
+
+    }
+    public Integer GetPassegenger(){
+
+     return passegenger;
+    }
+
+    public void setPassengenger(Integer passeInteger){
+this.passegenger=passeInteger;
 
     }
 }
